@@ -1,0 +1,14 @@
+﻿@model W2022_PassionProject.Models.PetDto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<a href="/Pet/List">Go back to list</a>
+<h2>@Model.PetName</h2>
+<div>Breed: @Model.PetBreed</div>
+<div>Age: @Model.PetAge</div>
+<div>Weight: @Model.PetWeight kg</div>
+<div>Character: @Model.PetCharacter</div>
+<div>Favorite Park: @Model.ParkName</div>
+

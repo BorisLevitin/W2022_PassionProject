@@ -1,0 +1,10 @@
+﻿{
+    "PetID":16,
+    "PetName":"Jack",
+    "PetBreed":"Husky",
+    "PetAge":12,
+    "PetCharacter":"Playful",
+    "PetWeight":33,
+    "ParkID":3
+
+}

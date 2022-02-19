@@ -1,0 +1,13 @@
+﻿@model IEnumerable<W2022_PassionProject.Models.PetDto>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+@foreach (var pet in Model)
+{
+    <h2><a href="/Pet/Details/@pet.PetID">@pet.PetName</a></h2>
+    <div>Breed: @pet.PetBreed</div>
+
+}
+
